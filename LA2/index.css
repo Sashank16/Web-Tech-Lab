@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Resume - Sashank Kumar Kakaraparty</title>
+ <style>
+ body {
+ background-color: beige;
+ font-family: "Arial", sans-serif;
+ line-height: 1.6;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ }
+ h2 {
+ color: #008080;
+ margin-bottom: 10px;
+ }
+ p {
+ color: #333;
+ margin-bottom: 10px;
+ }
+ ul, ol {
+ margin-bottom: 15px;
+ padding-left: 20px;
+ }
+ li {
+ margin-bottom: 5px;
+ }
+ a {
+ color: #0066cc;
+ text-decoration: none;
+ }
+ a:hover {
+ text-decoration: underline;
+ }
+ hr {
+ border: 1px solid #ccc;
+ margin: 30px 0;
+ }
+ u {
+ text-decoration: underline;
+ }
+ /* Styling for the header section */
+ header {
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ /* Styling for the profile link */
+ p a {
+ display: inline-block;
+ margin-top: 5px;
+ padding: 5px 10px;
+ background-color: #008080;
+ color: #fff;
+ border-radius: 5px;
+ }
+/* Styling for the education section */
+ ol {
+ counter-reset: item;
+ padding-left: 0;
+ }
+ ol li {
+ list-style: none;
+ position: relative;
+ margin-bottom: 20px;
+ }
+ ol li:before {
+ content: counter(item);
+ counter-increment: item;
+ background-color: #008080;
+ color: #fff;
+ font-weight: bold;
+ border-radius: 50%;
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+ text-align: center;
+ line-height: 20px;
+ margin-right: 10px;
+ }
+ /* Styling for the certifications section */
+ ol li:last-child {
+ margin-bottom: 0;
+ }
+ /* Styling for the summary section */
+ p[style="color:black;"] {
+ font-size: 16px;
+ font-weight: bold;
+ }
+ /* Styling for the projects section */
+ ol {
+ list-style: decimal;
+ padding-left: 40px;
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <h2>SASHANK KUMAR KAKARAPARTY</h2>
+ <p>
+ <strong>Email:</strong> sashank123@gmail.com<br>
+ <strong>Phone:</strong> +91 9876543214<br>
+ <strong>Location:</strong> Hyderabad, India<br>
+ <strong>Profile Link:</strong><a href="https://www.linkedin.com/in/kakaraparty-sashankkumar942324244/">LinkedIn
+ Profile</a>
+ </p>
+ </header>
+ <hr>
+ <h2><u>Summary:</u></h2>
+ <p style="color:black;">
+ To gain practical experience, develop new skills, and contribute to the success of the
+organization.
+ </p>
+ <hr>
+ <h2><u>Skills:</u></h2>
+ <ul>
+ <li>Foundation in Internet of Things (IoT), Data Science</li>
+ <li>Programming in C, Python, Java</li>
+ <li>Understood about working of Database Management System</li>
+ <li>Completed NPTEL Certification course on Data Mining</li>
+ </ul>
+ <hr>
+ <h2><u>Experience:</u></h2>
+ <ul>
+ <li>
+ <p>
+ <strong>Shiv Nadar University | Chennai, India</strong><br>
+ <strong>NSS Volunteer</strong><br>
+ 10/2021 - Current<br>
+ - Followed directions from supervisors and completed tasks within an appropriate
+timeframe.
+ </p>
+ </li>
+ <li>
+ <p>
+ <strong>Inooga Solutions Private Limited | Hyderabad, India</strong><br>
+ <strong>Project Intern</strong><br>
+ May 2023 - Jun 2023 · 2 mos<br>
+ This project involves automating email reading by using IMAP protocol and creating a
+response to
+ the query asked in the email with the help of Bing Chat API and OpenAI ChatGPT API and
+sending
+ that response as a reply mail back to that sender by using SMTP protocol.I have used
+various libraries
+ and methods to get this work done. Prepared an XML file that contains all the relevant
+details like
+ IMAP server and port, email details etc which are then retrieved by the python script.
+ </p>
+ </li>
+ </ul>
+ <hr>
+ <h2><u>Education:</u></h2>
+ <ol>
+ <li>
+ <p>
+ <strong>Shiv Nadar University | Chennai, India</strong><br>
+ <strong>B.Tech in Computer Science and Engineering(IoT)</strong><br>
+ Expected Graduation: 05/2025<br>
+ - Completed coursework in Programming in C, Python, Java and DBMS
+ </p>
+ </li>
+ <li>
+ <p>
+ <strong>Trividyaa Junior College | Hyderabad, India</strong><br>
+ <strong>Intermediate in Mathematics, Physics and Chemistry</strong><br>
+ 06/2021<br>
+ - 9.7 GPA
+ </p>
+ </li>
+ <li>
+ <p>
+ <strong>ST. Andrews High School | Hyderabad, India</strong><br>
+ <strong>Secondary School in 10th Standard</strong><br>
+ 03/2019<br>
+ - 9.6 GPA
+ </p>
+ </li>
+ </ol>
+ <hr>
+ <h2><u>Projects:</u></h2>
+ <ol>
+ <li>
+ <p>
+ <strong>Mini-Project done in my 2nd Semester:</strong><br>
+ <strong>Name:</strong> Integrating a Heartbeat Sensor with a Piezoelectric Buzzer<br>
+ <strong>Duration:</strong> February 2022 - April 2022<br>
+ <strong>Summary:</strong> This project was carried out to enhance the experience of
+blind
+ people using a heartbeat sensor to monitor their pulse without having to look at the serial
+monitor
+ while connected to an Arduino board. To tackle this, we decided to integrate a piezoelectric
+sensor
+ that would buzz a specific number of times based on the pulse that was sensed by the
+heartbeat
+ sensor.
+ </p>
+ </li>
+ <li>
+ <p><strong>Internship Project:</strong><br>
+ <strong>Name:</strong>Email Automation Service<br>
+ <strong>Duration:</strong>May 2023 to June 2023<br>
+ <strong>Summary:</strong>This project aims to automate unread emails received in our
+inbox
+ by reading and sending a reply to the particular sender through chatgpt and bing chat.</p>
+ </li>
+ </ol>
+ <hr>
+ <h2><u>Certifications:</u></h2>
+ <ol>
+ <li>Data Mining, NPTEL - 2023</li>
+ <li>Programming In C, Udemy - 2022</li>
+ </ol>
+</body> 
